@@ -1,0 +1,225 @@
+/* ============================================================
+   ZGHARI — globals.css
+   Fonts → Tailwind layers → palette vars → base → utilities
+   ============================================================ */
+
+/* Google Fonts: Cormorant Garamond (display + italic), DM Sans (EN), Cairo (AR) */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&family=Cairo:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Design tokens ---------- */
+:root {
+  --bg: #0a0a0a;
+  --surface-1: #111111;
+  --surface-2: #161616;
+  --primary: #f2ede4;
+  --muted: #6b6560;
+  --gold: #c9a84c;
+  --line: rgba(242, 237, 228, 0.07);
+
+  /* z-index scale — ONLY these three layers per the brief */
+  --z-nav: 100;
+  --z-modal: 500;
+  --z-grain: 999;
+}
+
+/* ---------- Base ---------- */
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background-color: var(--bg);
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--primary);
+    font-family: 'DM Sans', ui-sans-serif, sans-serif;
+    overflow-x: hidden;
+    /* Prevent rubber-band flash of non-bg color */
+    overscroll-behavior-y: none;
+  }
+
+  /* Arabic / RTL → Cairo for body copy, keep Cormorant for display */
+  html[dir='rtl'] body {
+    font-family: 'Cairo', ui-sans-serif, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  ::selection {
+    background: rgba(201, 168, 76, 0.85);
+    color: #0a0a0a;
+  }
+
+  /* Minimal dark scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e1c19;
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a2722;
+  }
+
+  /* Lenis recommended baseline */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+/* ---------- Reusable component classes ---------- */
+@layer components {
+  .eyebrow {
+    @apply font-sans text-xs uppercase text-gold;
+    letter-spacing: 0.25em;
+  }
+
+  .container-x {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Gold outline button */
+  .btn-outline {
+    @apply relative inline-flex items-center justify-center gap-2 font-sans text-xs uppercase;
+    @apply border border-gold/60 text-primary px-7 py-3.5 rounded-full;
+    letter-spacing: 0.15em;
+    transition: color 0.5s var(--ease, cubic-bezier(0.16, 1, 0.3, 1)),
+      border-color 0.5s ease, background-color 0.5s ease;
+  }
+  .btn-outline:hover {
+    @apply bg-gold text-bg border-gold;
+  }
+
+  /* Gold filled button */
+  .btn-fill {
+    @apply relative inline-flex items-center justify-center gap-2 font-sans text-xs uppercase;
+    @apply bg-gold text-bg px-7 py-3.5 rounded-full;
+    letter-spacing: 0.15em;
+    transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.4s ease;
+  }
+  .btn-fill:hover {
+    @apply bg-[#d8b95f];
+  }
+}
+
+/* ---------- Utilities ---------- */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Clip parent for line-mask reveals. The vertical padding (with a matching
+     negative margin) gives ascenders/descenders — especially Arabic glyphs and
+     italics — room inside the clip without changing the visual line spacing. */
+  .mask-clip {
+    overflow: hidden;
+    display: block;
+    padding-block: 0.08em 0.16em;
+    margin-block: -0.08em -0.16em;
+  }
+
+  /* Edge fade mask for marquees / horizontal strips */
+  .edge-fade-x {
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 8%,
+      #000 92%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 8%,
+      #000 92%,
+      transparent
+    );
+  }
+
+  .will-transform {
+    will-change: transform;
+  }
+
+  /* Hide scrollbar but keep the element scrollable (mobile swipe strips). */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Marquee: reverse direction on hover without restarting the animation. */
+.marquee-row:hover .marquee-anim {
+  animation-direction: reverse;
+}
+.marquee-row .marquee-anim {
+  animation-play-state: running;
+}
+
+/* 35mm film sprocket perforations — evenly spaced rounded holes. */
+.film-sprockets {
+  background-image: radial-gradient(
+    circle,
+    rgba(242, 237, 228, 0.14) 0 2.5px,
+    transparent 3.5px
+  );
+  background-size: 26px 100%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+/* ---------- Grain overlay (fixed, never on scroll containers) ---------- */
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-grain);
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
+/* Respect reduced motion — disable perpetual + heavy motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

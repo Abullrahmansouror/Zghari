@@ -1,0 +1,324 @@
+{
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "journal": "Stories",
+    "contact": "Contact",
+    "book": "Book a Session",
+    "menu": "Menu",
+    "close": "Close",
+    "switchTo": "Switch to Arabic"
+  },
+  "hero": {
+    "eyebrow": "Street Photography · UAE",
+    "titleA": "Through the",
+    "titleB": "Lens",
+    "titleC": "of the",
+    "titleD": "Street",
+    "body": "Unscripted portraits of the people of the Emirates — photographed with permission, presence, and patience. Seven years on the pavement, one frame at a time.",
+    "ctaPortfolio": "View Portfolio",
+    "ctaBook": "Book a Session",
+    "scroll": "Scroll"
+  },
+  "marquee": {
+    "words": [
+      "Street",
+      "Portrait",
+      "UAE",
+      "Editorial",
+      "زغاري",
+      "شوارع الإمارات"
+    ]
+  },
+  "reel": {
+    "label": "The Street Reel",
+    "meta": "35MM · Shot across the Emirates",
+    "scrollHint": "Hover to inspect"
+  },
+  "gallery": {
+    "eyebrow": "Selected Work",
+    "title": "The Archive",
+    "subtitle": "A living record of faces, light, and the streets between them.",
+    "filters": {
+      "all": "All",
+      "street": "Street",
+      "portrait": "Portrait",
+      "events": "Events",
+      "editorial": "Editorial"
+    },
+    "view": "View",
+    "close": "Close",
+    "empty": "No frames in this collection yet.",
+    "featuredEyebrow": "Featured",
+    "featuredTitle": "Wide Frames",
+    "featuredHint": "Scroll to pan →",
+    "items": [
+      { "title": "Old Town Crossing", "location": "Deira, Dubai" },
+      { "title": "The Tailor", "location": "Bur Dubai" },
+      { "title": "Midnight Souk", "location": "Sharjah" },
+      { "title": "Fisherman's Gaze", "location": "Ras Al Khaimah" },
+      { "title": "Gold & Dust", "location": "Al Ras" },
+      { "title": "Corniche Light", "location": "Abu Dhabi" },
+      { "title": "Henna Hands", "location": "Al Fahidi" },
+      { "title": "Spice Routes", "location": "Deira" },
+      { "title": "The Gathering", "location": "Dubai" },
+      { "title": "Afternoon Prayer", "location": "Al Bastakiya" },
+      { "title": "Quiet Confidence", "location": "Studio, Dubai" },
+      { "title": "Wedding Procession", "location": "Fujairah" },
+      { "title": "Editorial No.4", "location": "DIFC" },
+      { "title": "Her Story", "location": "Studio, Dubai" },
+      { "title": "Last Light, Marina", "location": "Dubai Marina" }
+    ],
+    "featured": [
+      { "location": "Downtown Dubai", "year": "2024" },
+      { "location": "Sheikh Zayed Road", "year": "2023" },
+      { "location": "Liwa Desert", "year": "2024" },
+      { "location": "Al Seef", "year": "2022" },
+      { "location": "Jumeirah", "year": "2023" }
+    ]
+  },
+  "services": {
+    "eyebrow": "What I Offer",
+    "title": "Services",
+    "subtitle": "Four ways to work together — each shaped around the story you want to keep.",
+    "from": "From",
+    "currency": "AED",
+    "book": "Book This",
+    "items": [
+      {
+        "name": "Street Photography Sessions",
+        "desc": "Walk the Emirates with me. Candid, permission-first portraits of real people in real light.",
+        "price": "900"
+      },
+      {
+        "name": "Portrait Sessions",
+        "desc": "A considered, one-on-one shoot — studio or location — that captures who you actually are.",
+        "price": "1,400"
+      },
+      {
+        "name": "Event Coverage",
+        "desc": "Weddings, launches, and gatherings documented with an editorial, unobtrusive eye.",
+        "price": "2,500"
+      },
+      {
+        "name": "Brand & Commercial",
+        "desc": "Campaign and product imagery with a human, street-rooted aesthetic for brands that mean it.",
+        "price": "3,800"
+      }
+    ]
+  },
+  "stats": {
+    "eyebrow": "BY THE NUMBERS",
+    "items": [
+      { "value": 70, "suffix": "K+", "label": "Instagram Followers" },
+      { "value": 200, "suffix": "+", "label": "Sessions Completed" },
+      { "value": 5, "suffix": "", "label": "Emirates Covered" },
+      { "value": 4, "suffix": "+", "label": "Years on the Streets" }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "THE PROCESS",
+    "title": "How a Session Works",
+    "steps": [
+      {
+        "badge": "STEP 01",
+        "title": "Choose & Book Online",
+        "body": "Pick your session type — street, portrait, event, or commercial. Fill in the booking form with your vision, preferred location in the UAE, and a date that works for you. Takes less than 3 minutes."
+      },
+      {
+        "badge": "STEP 02",
+        "title": "We Meet on Location",
+        "body": "Zghari meets you at a real UAE street — Al Fahidi, Deira, JBR, or wherever feels right. No studio, no fake backdrops, no artificial lights. Just the streets, the golden-hour light, and your story."
+      },
+      {
+        "badge": "STEP 03",
+        "title": "Shoot — Natural, Candid, Real",
+        "body": "Sessions run 1 to 3 hours. Zghari directs minimally — he captures authentic energy, real expressions, and genuine street moments. You won't be told to pose. You won't look like everyone else."
+      },
+      {
+        "badge": "STEP 04",
+        "title": "Your Gallery, Delivered",
+        "body": "Within 5 to 7 days, you get a private online gallery of fully edited high-resolution photos. Download them, share them, keep them forever. Print packages available on request."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "The Story",
+    "title": "Behind the Frame",
+    "lines": [
+      "I photograph strangers",
+      "because every face on these",
+      "streets carries a country",
+      "inside it. I ask first. I wait.",
+      "Then the Emirates open up."
+    ],
+    "quote": "I don't take photographs. I'm given them — for the price of a conversation.",
+    "body": "Born between two cities and raised on the pavements of the UAE, I've spent seven years learning that the best portrait is the one you're trusted with. My work lives between documentary honesty and editorial restraint.",
+    "statValue": 70000,
+    "statSuffix": "K+",
+    "statLabel": "Instagram Community",
+    "instaCta": "Follow on Instagram",
+    "name": "Zghari",
+    "role": "Street & Portrait Photographer, UAE"
+  },
+  "booking": {
+    "eyebrow": "Let's Create",
+    "title": "Book a Session",
+    "stepLabel": "Step",
+    "of": "of",
+    "back": "Back",
+    "next": "Continue",
+    "steps": {
+      "one": "Choose Your Experience",
+      "two": "Pick Your Date & Time",
+      "three": "Tell Me About Your Vision",
+      "four": "Confirm & Send"
+    },
+    "step1": {
+      "title": "Choose Your Experience",
+      "subtitle": "What kind of story are we making?",
+      "experiences": [
+        { "name": "Street", "desc": "Candid, on-location portraits." },
+        { "name": "Portrait", "desc": "Studio or location, just you." },
+        { "name": "Events", "desc": "Weddings & gatherings, documented." },
+        { "name": "Commercial", "desc": "Brand & campaign imagery." }
+      ]
+    },
+    "step2": {
+      "title": "Pick Your Date & Time",
+      "subtitle": "When works for you?",
+      "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "months": [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ],
+      "slotsLabel": "Time of day",
+      "slots": [
+        { "id": "morning", "label": "Morning", "hint": "07:00 – 11:00" },
+        { "id": "afternoon", "label": "Afternoon", "hint": "13:00 – 16:00" },
+        { "id": "evening", "label": "Golden Hour", "hint": "16:00 – 18:30" }
+      ],
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month"
+    },
+    "step3": {
+      "title": "Tell Me About Your Vision",
+      "subtitle": "The details that make it yours.",
+      "name": { "label": "Your Name", "placeholder": "Full name", "error": "Please tell me your name" },
+      "phone": { "label": "Phone", "placeholder": "+971 50 000 0000", "error": "A valid phone number, please" },
+      "instagram": { "label": "Instagram (optional)", "placeholder": "@yourhandle" },
+      "message": { "label": "Your Vision", "placeholder": "Tell me what you're imagining…", "error": "A line or two helps me prepare" },
+      "hear": {
+        "label": "How did you hear about me?",
+        "placeholder": "Select one",
+        "options": ["Instagram", "A friend", "Google", "Saw my work in print", "Other"]
+      }
+    },
+    "step4": {
+      "title": "Confirm & Send",
+      "subtitle": "One last look before it reaches me.",
+      "experienceLabel": "Experience",
+      "dateLabel": "Date",
+      "timeLabel": "Time",
+      "nameLabel": "Name",
+      "phoneLabel": "Phone",
+      "instagramLabel": "Instagram",
+      "messageLabel": "Vision",
+      "none": "—",
+      "submit": "Send Request",
+      "submitting": "Sending…"
+    },
+    "success": {
+      "title": "شكراً · Thank You",
+      "message": "We'll be in touch within 24 hours.",
+      "again": "Book another session"
+    },
+    "validation": {
+      "experience": "Please choose an experience",
+      "date": "Please pick a date",
+      "slot": "Please pick a time of day"
+    }
+  },
+  "instagram": {
+    "handle": "@zghari",
+    "title": "From the Feed",
+    "subtitle": "Daily frames from the streets of the Emirates.",
+    "follow": "Follow for More",
+    "likes": "likes",
+    "comments": "comments",
+    "drag": "Drag"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions You Might Have",
+    "categories": {
+      "all": "All",
+      "pricing": "Pricing",
+      "sessions": "Sessions",
+      "booking": "Booking",
+      "delivery": "Delivery"
+    },
+    "items": [
+      { "id": "f1", "category": "pricing", "q": "How much does a session cost?", "a": "Sessions start from AED 500 for a street portrait session. Pricing varies based on the session type, duration, and any special requirements. You'll receive a full quote after submitting the booking form — every session is tailored to your vision." },
+      { "id": "f2", "category": "delivery", "q": "How long until I receive my photos?", "a": "Your edited gallery is delivered within 5 to 7 business days via a private link. Need them sooner? Rush delivery in 48 hours is available for an additional fee — just mention it when booking." },
+      { "id": "f3", "category": "sessions", "q": "What should I wear or prepare?", "a": "Wear something you feel genuinely comfortable in — street photography is about authenticity, not perfection. Avoid very bright or clashing patterns. No need for props or professional wardrobe. Just show up as yourself." },
+      { "id": "f4", "category": "sessions", "q": "Can I choose the shooting location?", "a": "Absolutely. You can suggest any location in the UAE that's meaningful to you, or Zghari will recommend the perfect spot based on the vibe you're going for — Old Dubai, Al Fahidi, the Gold Souk, JBR, or beyond." },
+      { "id": "f5", "category": "booking", "q": "How far in advance should I book?", "a": "Booking 3 to 5 days in advance is ideal. For weekends or events, 1 to 2 weeks ahead is recommended. Need something last minute? Drop a message on WhatsApp and we'll see what we can do." },
+      { "id": "f6", "category": "pricing", "q": "Can I use the photos commercially?", "a": "Personal use is included in every session. If you plan to use the photos for brand campaigns, ads, or commercial projects, a commercial license is available as an add-on — discussed and agreed before the session begins." },
+      { "id": "f7", "category": "sessions", "q": "Do you shoot couples or groups?", "a": "Yes — couples and small groups of up to 4 people are welcome for street portrait sessions. Group sessions are priced based on size and duration. Reach out with your request and we'll put together the right package for you." },
+      { "id": "f8", "category": "booking", "q": "What happens if the weather is bad?", "a": "Sessions can be rescheduled at no cost if outdoor conditions make shooting impractical. Zghari will contact you the day before if the weather looks tricky — no stress, no penalties." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Kind Words",
+    "title": "In Their Words",
+    "items": [
+      {
+        "quote": "Zghari made me forget the camera was there. The portraits feel like memories I didn't know I had.",
+        "name": "Mariam Al Suwaidi",
+        "service": "Portrait Session"
+      },
+      {
+        "quote": "He shot our launch like a documentary. Every frame had a soul — our brand has never looked so human.",
+        "name": "Omar Haddad",
+        "service": "Brand & Commercial"
+      },
+      {
+        "quote": "صور زغاري حكت قصتنا قبل أن ننطق بكلمة. عمل لا يُنسى.",
+        "name": "ليلى المنصوري",
+        "service": "Event Coverage"
+      },
+      {
+        "quote": "The most patient eye in the UAE. He waited an hour for one look — and it was the photo of the year for us.",
+        "name": "Daniel Okafor",
+        "service": "Editorial"
+      },
+      {
+        "quote": "احترافية ودفء في آنٍ واحد. أوصي به لكل من يريد صوراً صادقة.",
+        "name": "خالد الفلاسي",
+        "service": "Street Session"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Say Hello",
+    "title": "Get in Touch",
+    "intro": "For bookings, collaborations, or just to talk about light — I'm one message away.",
+    "emailLabel": "Email",
+    "email": "hello@zghari.com",
+    "whatsappLabel": "WhatsApp",
+    "whatsappDisplay": "+971 50 123 4567",
+    "whatsappNumber": "971501234567",
+    "whatsappText": "Hi Zghari, I'd love to book a session.",
+    "followLabel": "Follow",
+    "instagram": "Instagram",
+    "based": "Based in the United Arab Emirates · Available worldwide"
+  },
+  "footer": {
+    "rights": "© 2025 Zghari · All Rights Reserved",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "backToTop": "Back to top"
+  }
+}
