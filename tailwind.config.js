@@ -13,12 +13,12 @@ export default {
         line: 'rgba(242,237,228,0.07)',
       },
       fontFamily: {
-        // Display: editorial luxury serif
-        display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        // Display: all headings use Inter
+        display: ['"Inter"', 'ui-sans-serif', 'sans-serif'],
         // Body EN
-        sans: ['"DM Sans"', 'ui-sans-serif', 'sans-serif'],
+        sans: ['"Inter"', 'ui-sans-serif', 'sans-serif'],
         // Body AR
-        ar: ['"Cairo"', 'ui-sans-serif', 'sans-serif'],
+        ar: ['"Inter"', 'ui-sans-serif', 'sans-serif'],
       },
       letterSpacing: {
         eyebrow: '0.2em',
